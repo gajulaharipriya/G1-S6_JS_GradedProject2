@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Resume Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button type="button" class="btn" id="previous">Prev</button>
+            <input type="search" class="search-box" id="search-box"
+                placeholder="search for keywords to filter the results" onkeyup="searchFunc()">
+            <button type="button" class="btn" id="next">Next</button>
+        </header>
+        <main id="resume-window" class="resume-window">
+            <!-- <div class="resume-head">
+                <div class="image-box"></div>
+                <div class="details-box">
+                    <h1 id="name">John Doe</h1>
+                    <h3 id="applied-for">Applied For : Software Engineer</h3>
+                </div>
+                <div class="image-box">
+                    <i class="fa-solid fa-user profile"></i>
+                </div>
+            </div>
+            <div class="resume-body">
+                <div class="sidebar">
+                    <div class="side-info">
+                        <table class="personal-info" id="personal-info">
+                            <thead>
+                                <tr><th>Personal Information</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>9999999999</td></tr>
+                                <tr><td>john@gmail.com</td></tr>
+                                <tr><td><a href="https://linkedin.com/john">LinkedIn</a></td></tr>
+                            </tbody>
+                        </table>
+                        <table class="tech-skills" id="tech-skills">
+                            <thead>
+                                <tr><th>Technical Skills</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>HTML</td></tr>
+                                <tr><td>CSS</td></tr>
+                                <tr><td>JavaScript</td></tr>
+                            </tbody>
+                        </table>
+                        <table class="hobbies" id="hobbies">
+                            <thead>
+                                <tr><th>Hobbies</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Wildlife</td></tr>
+                                <tr><td>Dance</td></tr>
+                                <tr><td>Workout</td></tr>
+                            </tbody>
+                        </table>
+                        <hr/>
+                    </div>
+                </div>
+                <div class="main-section">
+                    <section class="bio-data experience" id="experience">
+                        <h2>Work Experience in previous company</h2>
+                        <p><b>Company Name:</b> Harman</p>
+                        <p><b>Position:</b> Associate Engineer</p>
+                        <p><b>Start Date:</b> 2013-01-01</p>
+                        <p><b>End Date:</b> 2014-01-01</p>
+                        <p>
+                            <b>Summary:</b>Associate engineer with development, testing verification and validation experience on Car UI display systems.Performed phone projection development of user stories and testing with infotainment system such as Android auto ,Car playAnalyzed requirements , created test plans, executed test cases for connectivity epic such as C-connect, F-connect.Good at analyzing DLT logs and analyzing the code refactor areas.
+                        </p>
+                    </section>
+                    <section class="bio-data projects" id="projects">
+                        <h2>Projects</h2>
+                        <p>
+                            <b>Diabetic Retinopaty: </b>created a GUI using QT designer which will take image of retina as input, input image will be processed and compare with the images present in database and then classified as one of DR stage or normal.OpenCV and image processing concepts are used. survey paper on this project is publish in 2nd international conference on Topical Transcend in Science, Technology & Management.
+                        </p>
+                    </section>
+                    <section class="bio-data education" id="education">
+                        <h2>Education</h2>
+                        <ul>
+                            <li>
+                                <b>UG: </b>Sai Vidya Institute of Technology, B.E Computer Science and Engineering, 2011-01-01, 2013-01-01, 8.7
+                            </li>
+                            <li><b>PU: </b>KV AFS YELAHANKA, 8.7</li>
+                            <li><b>High School: </b>KV AFS Bhuj, 8.7</li>
+                        </ul>
+                    </section>
+                    <section class="bio-data internship" id="internship">
+                        <h2>Internship</h2>
+                        <ul>
+                            <li><b>Company Name: </b>IBM</li>
+                            <li><b>Position: </b>intern</li>
+                            <li><b>Start Date: </b>2013-01-01</li>
+                            <li><b>End Date: </b>2014-01-01</li>
+                            <li><b>Summary: </b>Learned about Tools used for website testing such as Deep Trawl, NVDA, web developer extension, OpenVAS,Learned about the importance and concept of OWASP.Learned React JS and worked for Frontend development with professional.</li>
+                        </ul>
+                    </section>
+                    <section class="bio-data achievements" id="achievements">
+                        <h2>Achievements</h2>
+                        <ul>
+                            <li>
+                                Attended 5 days industry orientation workshop organized by free software movement
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div> -->
+        </main>
+        <div class="resume-number">
+            <p id="current-resume">Showing <b>1</b> of <b>6</b></p>
+        </div>
+    </div>
+
+    <script type="module" src="resume.js"></script>
+
+</body>
+
+</html>
